@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+.headerWrapper {
+  border-bottom: 1px solid #d6d6d6;
+  position: sticky, -webkit-sticky;
+  top: 0;
+}
+
+.header {
+  margin: 0 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0066ee;
+  font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.login_btn {
+  margin-right: 2rem;
+}
+
+.login_btn > button {
+  height: 4rem;
+  border: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "Inter", Helvetica, Arial, -apple-system, sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 678px) {
+  .header {
+    margin: 0 2rem;
+  }
+}
